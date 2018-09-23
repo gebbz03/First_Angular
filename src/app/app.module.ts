@@ -10,6 +10,7 @@ import { DetailsComponent } from './details/details.component';
 import { GtestComponent } from './gtest/gtest.component';
 import { HttpClientModule } from "@angular/common/http";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PostsComponent,
     UsersComponent,
     DetailsComponent,
-    GtestComponent
+    GtestComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
